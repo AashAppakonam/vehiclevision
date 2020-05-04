@@ -1,4 +1,4 @@
-# console input: python vid_resize.py -i "python vid_convert.py -i "C:\Users\Aashish\Documents\My Received Files\School\12th Grade\Senior Project\Projects\ObjectDetection\yolo-object-detection\final_project\datasets\AZ_drive\videos\test\1.mp4" -o output_vids -hi 720 -wi 1280
+# console input: python vid_resize.py -i "path\to\input.mp4" -o "path\to\outputfolder" -hi 720 -wi 1280
 
 from moviepy.editor import VideoFileClip
 import os
